@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+            <!-- 代码编辑/显示区 -->
+            <div class="code-viewer">
+            <!-- 代码编辑区 -->
+            <!-- 实现原理: -->
+            <!-- 1. 保持所有颜色完全透明(软隐藏) -->
+            <!-- 2. 令其脱离正常文档流 -->
+            <textarea class="cd-editor" id="code-editor">
+            </textarea>
+
+            <!-- 代码显示区-->
+            <div class="cv-displayer">
+                <div class="cv-shower">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="thirdpart/highlight/highlight.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </div>
+</body>
+</html>
